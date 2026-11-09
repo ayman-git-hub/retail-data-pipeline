@@ -1,0 +1,29 @@
+Plaintext
+# SQLite Databases (Local execution artifacts)
+*.db
+*.sqlite
+*.sqlite3
+
+# Python Cache and Bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual Environments
+.venv/
+env/
+venv/
+ENV/
+
+# IDE & Editor Settings
+.vscode/
+.idea/
+*.swp
+
+# OS System Files
+.DS_Store
+Thumbs.db
+
+# Sensitive / Large Data Files (Keep sample_sales.csv tracked, ignore others)
+data/large_*.csv
+data/*.db
